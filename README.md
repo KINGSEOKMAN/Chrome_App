@@ -1,7 +1,9 @@
 # Chrome_App
 크롬 앱 Momentum을 Vanilla JS로 클론 코딩
 # 기능
-랜덤 배경이미지
+*랜덤 배경이미지
+
+
 * 시계
 
 
