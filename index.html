@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rock+3D&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+3D&display=swap" rel="stylesheet">
+
+  
+
+    <link rel="stylesheet" href="css/style.css"/>
+    
+    <title>CromApp</title>
+    <style>
+   
+    </style>
+</head>
+<body>
+   
+<div id="main">
+     <h2 id="clock"></h2> 
+    <div id="login-container">
+    <form class = "hidden" id = "login-form">
+        <input id="login-input"
+        required
+        maxlength="15"
+        type="text"
+        placeholder="What is your Name ?"/>
+        <input type="submit" class="submit-button"  value="Click!"></input>
+    </form>
+    <h1 class = "hidden" id = "greeting"></h1>
+    </div>
+
+    <form id="todo-form">
+        <input id= todo-input type="text" placeholder="Write a To do here ?" required id="" maxlength="10">
+        <input type="submit" class="submit-button"  value="Click!"></input>
+    </form>
+    <ul id = "todo-list">
+    </ul>
+</div>
+    <div id="quote">
+        <span id="quote-fist"></span>
+        <span id="quote-second"></span>
+        <span id="quote-last"></span>
+    </div>
+    <div id ="weather">
+        <span></span>
+        <span></span>
+    </div>
+
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    
+</body>
+</html>
